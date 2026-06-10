@@ -1,0 +1,16 @@
+{
+  "name": "San Salvador Art Week 2027",
+  "short_name": "SS ArtWeek",
+  "description": "Plataforma internacional de arte contemporáneo, diseño y arquitectura. 14-18 abril 2027.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0E0E0E",
+  "lang": "es",
+  "icons": [
+    {"src":"/favicon-192x192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"/favicon-512x512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+    {"src":"/apple-touch-icon.png","sizes":"180x180","type":"image/png","purpose":"any"}
+  ]
+}

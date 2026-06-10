@@ -1,0 +1,30 @@
+/* tokens.css · COLORS + FONTS only. The single source of truth. Edit this to re-skin. */
+:root{
+  /* Brand palette · San Salvador Art Week (from the ARTWEEK + SSACO marks) */
+  --bg:        #FFFFFF;   /* page background */
+  --ink:       #0E0E0E;   /* main text */
+  --muted:     #6A6A6A;   /* secondary text */
+  --line:      #E6E4DF;   /* hairline rules / borders */
+  --surface:   #F6F5F2;   /* alt sections / cards */
+
+  /* Accent palette · used sparingly, editorial style */
+  --teal:      #14B8C4;
+  --magenta:   #EC008C;
+  --lime:      #7AC829;
+  --coral:     #F0625B;
+  --amber:     #F4A93E;
+
+  --accent:    var(--ink);     /* primary text/links stay ink in the minimal system */
+  --accent-2:  var(--magenta); /* the single hot accent for CTAs / active states */
+
+  /* Footer credit colors (read by the EKY credit logo) */
+  --footer-bg: var(--ink);
+  --footer-fg: #FFFFFF;
+
+  /* Fonts */
+  --font-display: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+  --font-body:    'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Layout */
+  --max: 1200px;
+}
