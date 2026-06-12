@@ -270,4 +270,10 @@ h1,h2,h3,h4{font-family:var(--font-display);line-height:1.05;font-weight:600;let
 /* footer Padilla wordmark: true ratio, ~2x the SSACO width */
 .footer-orgs img[src*="padilla"]{height:auto;width:160px}
 
+/* mobile: drop the coral ring below the hero stats so it never sits on text */
+@media (max-width:780px){
+  .hero{padding-bottom:5rem}
+  .float--4{bottom:.9rem;left:5%;right:auto;width:46px;opacity:.4}
+}
+
 /* === end of stylesheet === */
