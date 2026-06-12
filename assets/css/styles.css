@@ -260,4 +260,14 @@ h1,h2,h3,h4{font-family:var(--font-display);line-height:1.05;font-weight:600;let
 .hero__logo{margin:0;line-height:0}
 .hero__logo img{width:min(100%,640px);height:auto;display:block}
 
+/* mobile: keep the 4 hero stats on one centered row */
+@media (max-width:600px){
+  .hero__meta{flex-wrap:nowrap;gap:.8rem;justify-content:space-between}
+  .hero__meta .stat{flex:1 1 0;min-width:0;align-items:center;text-align:center}
+  .hero__meta .stat b{font-size:1.5rem}
+  .hero__meta .stat span{font-size:.62rem;letter-spacing:.04em;margin-top:.3rem}
+}
+/* footer Padilla wordmark: true ratio, ~2x the SSACO width */
+.footer-orgs img[src*="padilla"]{height:auto;width:160px}
+
 /* === end of stylesheet === */
